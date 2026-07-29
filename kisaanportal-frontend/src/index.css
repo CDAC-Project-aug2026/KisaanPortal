@@ -1,0 +1,41 @@
+@import "tailwindcss";
+body{
+  background: linear-gradient(
+    135deg,
+    #e8f5e9,
+    #f1f8e9,
+    #ffffff
+  );
+}
+
+/* KisaanPortal-themed react-toastify overrides */
+.Toastify__toast {
+  border-radius: 14px !important;
+  font-family: inherit;
+  font-weight: 500;
+  box-shadow: 0 10px 25px rgba(21, 128, 61, 0.15) !important;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #15803d, #16a34a) !important;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #b91c1c, #dc2626) !important;
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #b45309, #d97706) !important;
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #1d4ed8, #2563eb) !important;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+.Toastify__close-button {
+  opacity: 0.8;
+}
